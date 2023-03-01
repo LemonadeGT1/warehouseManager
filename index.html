@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="super-container">
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-start"><h2><span class="neon">Program: </span>Warehouse Manager</h2></div>
+      </div>
+      <div class="row justify-content-start mb-2">
+        <div class="col-2 text-end"><h5>Filter By: </h5></div>
+        <div class="col-1"><button class="btn btn-success" onclick="drawHeavyPackages()"><h6>Heavy</h6></button></div>
+        <div class="col-1"><button class="btn btn-success" onclick="drawPriorityPackages()"><h6>Priority</h6></button></div>
+        <div class="col-1"><button class="btn btn-success" onclick="drawFragilePackages()"><h6>Fragile</h6></button></div>
+        <div class="col-2"><button class="btn btn-success" onclick="drawUncodedPackages()"><h6>Uncoded</h6></button></div>
+        <div class="col-2"><button class="btn btn-success" onclick="drawHeavyExpressPackages()"><h6>Heavy Express</h6></button></div>
+        <div class="col-2"><button class="btn btn-success" onclick="drawAllPackages()"><h6>View All</h6></button></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-5"><hr class="hr1"></div>
+        <div class="col-2 text-center"><h5 class="">Packages</h5></div>
+        <div class="col-5"><hr class="hr1"></div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="row">
+        <div id="packages" class="col-12 p-2 d-flex flex-wrap justify-content-around align-content-between">
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- place footer here -->
+    </footer>
+  </div>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script src="javascript.js"></script>
+</body>
+
+</html>

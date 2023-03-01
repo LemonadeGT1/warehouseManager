@@ -1,0 +1,38 @@
+
+
+body{
+  font-family: 'Allerta Stencil', sans-serif;
+  background-color: black;
+  color: wheat;
+}
+
+main{
+  background-color: #333333;
+  color: #00ff00;
+  min-height: 60vh;
+}
+
+.super-container{
+  border: 2px solid wheat;
+  margin: 1em;
+  padding: 1em;
+}
+
+.neon{
+  color: #00ff00;
+}
+
+.hr1{
+  width: 100%;
+  border: 2px solid #00ff00;
+}
+
+.package{
+  margin: .5em;
+  color: wheat;
+  background-color: #6a4121;
+  padding: 1em;
+  border: 2px solid #2f1c0e;
+}
+
+
